@@ -5,7 +5,7 @@ public class Main {
         double weight = 70;
         double BMI = service.calculate(weight, height);
         double bmi = BMI;
-        int index = (int)bmi;
+        int index = (int) bmi;
         System.out.println(index);
     }
 }
