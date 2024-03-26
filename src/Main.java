@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        double height = 1.64;
-        double weight = 70;
+        double height = 1.87;
+        double weight = 98;
         double BMI = service.calculate(weight, height);
-        double bmi = BMI;
-        int index = (int) bmi;
+        int index = (int) BMI;
         System.out.println(index);
     }
 }
