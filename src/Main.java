@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double height = 1.87;
         double weight = 98;
-        int result = (int) service.calculate(weight, height);
-        System.out.println(result);
+        int bmi = (int) service.calculate(weight, height);
+        System.out.println(bmi);
     }
 }
